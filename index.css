@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 11vh;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+body {
+    background-image: linear-gradient(to right, #631a53 0%, #37023b, rgb(24, 7, 26) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2#titulo {
+    transition: .5s;
+    font-size: 52px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.wrapper_traço {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.traço {
+    margin-top: 0.7em;
+    background: white;
+    width: 700px;
+    height: 7px;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+
+div.traço:hover {
+  width: 900px; 
+}
+
+h2:hover, div.traço {
+    letter-spacing: .1em;
+}
+
+h2:hover::before {
+    content: "Será que...";
+    font-size: 13px;
+}
+
+h2:hover::after {
+    content: "?";
+}
+
+.wrapper-texto {
+
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.texto {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
