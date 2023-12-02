@@ -1,0 +1,16 @@
+div.traço:hover {
+    width: 900px; 
+  }
+  
+  h1:hover, div.traço {
+      letter-spacing: .1em;
+      text-shadow: 1px 1px 2px white;
+  }
+  
+  h1:hover::before {
+      content: "Todos são ";
+      font-size: 13px;
+  }
+  
+
+  
