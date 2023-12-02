@@ -1,0 +1,14 @@
+div.traço:hover {
+    width: 900px; 
+  }
+  
+  h1:hover, div.traço {
+      letter-spacing: .1em;
+      color: goldenrod;
+  }
+  
+  h1:hover::after {
+      content: "Onde tudo se consome...";
+      font-size: 13px;
+  }
+  
